@@ -1,0 +1,21 @@
+{
+  "request": {
+    "commit_id": "demo-high",
+    "author": {
+      "id": "bob",
+      "domain_familiarity_score": 0.45,
+      "past_success_rate": 0.52
+    },
+    "change_metadata": {
+      "lines_added": 320,
+      "lines_removed": 80,
+      "files_modified": ["src/critical/auth.py", "src/critical/session.py"],
+      "cyclomatic_complexity_delta": 3.2
+    },
+    "environment_health": {
+      "status": "critical",
+      "open_incidents": 4
+    }
+  },
+  "security_scan_passed": false
+}

@@ -1,0 +1,26 @@
+{
+  "request": {
+    "commit_id": "mock-0-60a523",
+    "author": {
+      "id": "synthetic-20",
+      "domain_familiarity_score": 0.43,
+      "past_success_rate": 0.42
+    },
+    "change_metadata": {
+      "lines_added": 241,
+      "lines_removed": 63,
+      "files_modified": [
+        "src/shipping/module.py",
+        "src/critical/data.py",
+        "src/critical/auth.py",
+        "src/critical/data.py"
+      ],
+      "cyclomatic_complexity_delta": 3.22
+    },
+    "environment_health": {
+      "status": "degraded",
+      "open_incidents": 0
+    }
+  },
+  "security_scan_passed": true
+}

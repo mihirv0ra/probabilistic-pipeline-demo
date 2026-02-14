@@ -1,0 +1,19 @@
+[project]
+name = "probabilistic-pipeline"
+version = "0.1.0"
+description = "Bayesian risk inference engine for CI/CD metadata"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110.2",
+    "uvicorn[standard]>=0.23.0",
+    "httpx>=0.26.0",
+    "streamlit>=1.30.0",
+]
+
+[project.scripts]
+probabilistic-pipeline = "prob_pipeline.cli:main"
+probabilistic-pipeline-router = "prob_pipeline.router:main"
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
