@@ -1,24 +1,23 @@
 {
   "request": {
-    "commit_id": "mock-0-60a523",
+    "commit_id": "mock-0-773283",
     "author": {
-      "id": "synthetic-20",
-      "domain_familiarity_score": 0.43,
-      "past_success_rate": 0.42
+      "id": "synthetic-8",
+      "domain_familiarity_score": 0.62,
+      "past_success_rate": 0.69
     },
     "change_metadata": {
-      "lines_added": 241,
-      "lines_removed": 63,
+      "lines_added": 289,
+      "lines_removed": 11,
       "files_modified": [
-        "src/shipping/module.py",
         "src/critical/data.py",
-        "src/critical/auth.py",
-        "src/critical/data.py"
+        "src/shipping/module.py",
+        "src/critical/cache.py"
       ],
-      "cyclomatic_complexity_delta": 3.22
+      "cyclomatic_complexity_delta": 1.44
     },
     "environment_health": {
-      "status": "degraded",
+      "status": "critical",
       "open_incidents": 0
     }
   },
