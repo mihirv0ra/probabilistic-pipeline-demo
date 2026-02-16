@@ -1,0 +1,23 @@
+{
+  "request": {
+    "commit_id": "mock-1-0a1f4e",
+    "author": {
+      "id": "synthetic-14",
+      "domain_familiarity_score": 0.94,
+      "past_success_rate": 0.25
+    },
+    "change_metadata": {
+      "lines_added": 196,
+      "lines_removed": 76,
+      "files_modified": [
+        "src/critical/data.py"
+      ],
+      "cyclomatic_complexity_delta": 1.2
+    },
+    "environment_health": {
+      "status": "healthy",
+      "open_incidents": 0
+    }
+  },
+  "security_scan_passed": true
+}

@@ -1,0 +1,24 @@
+{
+  "request": {
+    "commit_id": "mock-2-d9e9ba",
+    "author": {
+      "id": "synthetic-12",
+      "domain_familiarity_score": 0.55,
+      "past_success_rate": 0.63
+    },
+    "change_metadata": {
+      "lines_added": 157,
+      "lines_removed": 14,
+      "files_modified": [
+        "src/critical/cache.py",
+        "src/user/module.py"
+      ],
+      "cyclomatic_complexity_delta": 2.96
+    },
+    "environment_health": {
+      "status": "healthy",
+      "open_incidents": 0
+    }
+  },
+  "security_scan_passed": false
+}

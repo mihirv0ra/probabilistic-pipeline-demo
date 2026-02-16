@@ -1,0 +1,21 @@
+{
+  "request": {
+    "commit_id": "demo-medium",
+    "author": {
+      "id": "alice",
+      "domain_familiarity_score": 0.88,
+      "past_success_rate": 0.92
+    },
+    "change_metadata": {
+      "lines_added": 40,
+      "lines_removed": 10,
+      "files_modified": ["src/payment/process.py", "src/payment/validator.py"],
+      "cyclomatic_complexity_delta": 1.4
+    },
+    "environment_health": {
+      "status": "degraded",
+      "open_incidents": 2
+    }
+  },
+  "security_scan_passed": true
+}
